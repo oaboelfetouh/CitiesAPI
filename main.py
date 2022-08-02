@@ -1,6 +1,6 @@
 from fastapi import FastAPI
 from pydantic import BaseModel
-# use rwquests to get data from other API-s
+# use requests to get data from other API-s
 import requests
 
 app = FastAPI()
